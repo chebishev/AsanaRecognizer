@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         val cameraButton = findViewById<FloatingActionButton>(R.id.camera_button)
         cameraButton.setOnClickListener {
-            println("@string/test_camera_button")
+            println("Clicked")
         }
     }
 }

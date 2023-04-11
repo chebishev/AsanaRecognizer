@@ -2,5 +2,4 @@
     <string name="app_name">Asana Recognizer</string>
     <string name="todo">TODO</string>
     <string name="welcome_message">Take or choose a photo and let us do the rest of the magic</string>
-    <string name="test_camera_button">Офф, най-накрая сработи този бутон :)</string>
 </resources>
