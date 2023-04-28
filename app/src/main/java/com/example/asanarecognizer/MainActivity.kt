@@ -1,9 +1,7 @@
 package com.example.asanarecognizer
 
-import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.provider.MediaStore
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 
 class MainActivity : AppCompatActivity() {
@@ -11,10 +9,14 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
+        // This works, so I have to figure out how to get tha camera or gallery open
         val cameraButton = findViewById<FloatingActionButton>(R.id.camera_button)
         cameraButton.setOnClickListener {
-            println("Camera button clicked")
+           println("Camera button clicked")
         }
+        // The variant with intent = Intent(ACTION....) force closes the app
+        // maybe startActivity(intent) isn't the right way to do it.
+
     }
 }
 
